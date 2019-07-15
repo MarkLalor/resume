@@ -31,7 +31,7 @@ ItalicFont = Fontin-Italic.otf
 {Fontin.otf}
 
 \titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
-\titlespacing{\section}{0pt}{0pt}{0pt}
+\titlespacing\section{0pt}{4pt plus 4pt minus 2pt}{2pt plus 2pt minus 2pt}
 
 \geometry{top=0.4in,left=0.55in,bottom=0.4in,right=0.55in}
 
@@ -52,30 +52,35 @@ ItalicFont = Fontin-Italic.otf
 \section{Education}
 \begin{tabular}{lp{15cm}}
 \textbf{Case Western Reserve University} & \textsc{Sep} 2016 -- \textsc{Dec} 2019 \\
-Bachelor of Science in Computer Science &  \textsc{GPA}: 3.825\\
+Bachelor of Science in Computer Science &  \textsc{GPA}: 3.74\\
 \end{tabular} \\
-\begin{tabular}{rp{14cm}}
-\textsc{Current Classes}: & \footnotesize{Computer Security, Applied Graph Theory, Software Defined Networks, Databases, Number Theory} \\
-\textsc{Completed Classes}: & \footnotesize{Algorithms, Data Structures, Artificial Intelligence, Computer Networks, Programming Language Concepts, Operating Systems and Concurrent Programming}
+\begin{tabular}{rp{16cm}}
+\textsc{Classes}: & \footnotesize{Algorithms, Data Structures, Programming Language Concepts, Databases, Operating Systems, Artificial Intelligence,  Computer Security, Graph Theory, Computer Networks, Software Defined Networks}
 \end{tabular}
-\\
 % ---------- WORK EXPERIENCE ----------
 \section{Work Experience}
-\textsc{Research Assistant} | Case School of Engineering, \href{http://engr.case.edu/rabinovich_michael/}{Rabinovich} Lab \\
-\textsc{Sep 2018 – Present} | Cleveland, OH
+\textsc{Software Engineer Intern} | \href{https://asana.com}{Asana} \\
+\textsc{May 2019 – Present} | San Francisco, CA
 \begin{itemize}
-	\item Conducting a measurement of the adoption of the EDNS Client Subnet (ECS) extension to DNS.
-	\item Assessing the utility of the ECS extension for distributed platforms scanning.
+	\item Working on frameworks and abstractions that product teams use to interact with .
+	\item Reducing build times by sharding compilation targets with overspecified dependencies.  
 \end{itemize}
-\vskip 3mm
-\textsc{Software Engineer Intern} | MIM Software \\
+\vskip 2mm
+\textsc{Research Assistant} | Case School of Engineering, \href{http://engr.case.edu/rabinovich_michael/}{Rabinovich} Lab \\
+\textsc{Sep 2018 – Dec 2018} | Cleveland, OH
+\begin{itemize}
+	\item Conducted a measurement of the adoption of the EDNS Client Subnet (ECS) extension to DNS.
+	\item Assessed the utility of the ECS extension for distributed platforms scanning.
+\end{itemize}
+\vskip 2mm
+\textsc{Software Engineer Intern} | \href{https://www.mimsoftware.com}{MIM Software} \\
 \textsc{May 2018 – Aug 2018} | Beachwood, OH
 \begin{itemize}
 	\item Implemented multi-factor authentication for an existing cloud software suite.
 	\item Added options for time-based one-time passwords, SMS messages, and backup codes.
 	\item Created new server-side services and added new HTTP endpoints for clients.
 \end{itemize}
-\vskip 3mm
+\vskip 2mm
 \textsc{Teaching Assistant (Intro to Java)} | Case School of Engineering \\
  \textsc{Sep 2017 – Dec 2017} | Cleveland, OH
  \begin{itemize}
@@ -83,8 +88,8 @@ Bachelor of Science in Computer Science &  \textsc{GPA}: 3.825\\
 	 \item Held a weekly office hour with a mini-lesson and project discussion.
 	 \item Graded and provided feedback on lab assignments and projects.
  \end{itemize}
- \vskip 3mm
- \textsc{Software Engineer Intern} | MIM Software \\
+ \vskip 2mm
+ \textsc{Software Engineer Intern} | \href{https://www.mimsoftware.com}{MIM Software} \\
  \textsc{May 2017 – Aug 2017} | Beachwood, OH
  \begin{itemize}
 	\item Created new viewer/editor for DICOM (medical image) files that interfaces with main software.
@@ -94,16 +99,11 @@ Bachelor of Science in Computer Science &  \textsc{GPA}: 3.825\\
 \begin{itemize}[noitemsep]
 	\item \emph{\href{http://hacsoc.org}{Hacker Society} Maintainer}: Organize weekly tech talks on campus. Reach out to current students as well as industry professionals and alumni to give talks.
 	\item \emph{CWRU ACM Secretary}: Plan, manage, and volunteer for events that teach and support CS on campus. Provide guidance in regards to classes, the computer science department, and careers.
-	\item \emph{Vietnamese Student Association}: Promote Vietnamese culture on campus and the Cleveland community by helping with events. Volunteer as a mentor for a mentor/mentee program for new students.
+	\item \emph{Vietnamese Student Association}: Promote Vietnamese culture on campus and the Cleveland community by helping with events. Volunteered for a mentor/mentee program for new students.
 \end{itemize}
 \section{Skills}
-\textsc{Programming Languages}:
-\begin{tabular}[noitemsep]{ll}
-	\textsc{Proficient}: & Java, Python \\
-	\textsc{Experience}: & Scala, SQL, C, HTML, CSS, Javascript \\
-\end{tabular}
-
-\textsc{Software and Frameworks}: Linux, Git, Mercurial, JUnit, Guava, Swing, Google Cloud Platform, Nginx, Redis
+\textsc{Programming Languages}: Java, Python, Typescript, Scala, SQL, C \\
+\textsc{Software and Frameworks}: Git, Linux, Bazel, JUnit, Guava, Swing, Google Cloud Platform, Nginx, Redis
 \section{Projects}
 \begin{itemize}
     \item \emph{\href{https://github.com/marklalor/PLCInterpreter}{PLC Interpreter}}: Interpreter for a Java-like programming language with constructs such as objects, polymorphism, loops, recursion, and nested functions. Project in Programming Language Concepts.
